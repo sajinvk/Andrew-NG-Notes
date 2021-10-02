@@ -475,8 +475,8 @@ Here are the course summary as its given on the course [link](https://www.course
 - Derivation of Sigmoid activation function:
 
   ```
-  g(z) = 1 / (1 + np.exp(-z))
-  g'(z) = (1 / (1 + np.exp(-z))) * (1 - (1 / (1 + np.exp(-z))))
+  g(z) = 1 / (1 + exp(-z))
+  g'(z) = (1 / (1 + exp(-z))) * (1 - (1 / (1 + exp(-z))))
   g'(z) = g(z) * (1 - g(z))
   ```
 
