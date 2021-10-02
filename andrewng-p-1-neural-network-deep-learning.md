@@ -604,6 +604,10 @@ Here are the course summary as its given on the course [link](https://www.course
   ```
   Z[l] = W[l]A[l-1] + B[l]
   A[l] = g[l](A[l])
+  
+  ![image](https://user-images.githubusercontent.com/40623310/135715112-a4bf8ec6-3e48-45c6-9546-a5b46c0551f6.png)
+
+  
   ```
 
 - We can't compute the whole layers forward propagation without a for loop so its OK to have a for loop here.
