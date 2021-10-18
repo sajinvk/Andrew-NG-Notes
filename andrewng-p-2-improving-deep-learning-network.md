@@ -188,6 +188,10 @@ Here are some intuitions:
      - If `lambda` is too large, w's will be small (close to zero) - will use the linear part of the _tanh_ activation function, so we will go from non linear activation to _roughly_ linear which would make the NN a _roughly_ linear classifier.
      - If `lambda` good enough it will just make some of _tanh_ activations _roughly_ linear which will prevent overfitting.
      
+     ![image](https://user-images.githubusercontent.com/77424330/137652146-87731ce8-7cfc-49ad-ad3f-23e6cc60b67b.png)
+
+     
+     
 
 _**Implementation tip**_: if you implement gradient descent, one of the steps to debug gradient descent is to plot the cost function J as a function of the number of iterations of gradient descent and you want to see that the cost function J decreases **monotonically** after every elevation of gradient descent with regularization. If you plot the old definition of J (no regularization) then you might not see it decrease monotonically.
 
